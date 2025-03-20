@@ -191,7 +191,7 @@ export default function Footer() {
           gap: 2
         }}>
           <Typography variant="body2" sx={{ opacity: 0.8 }}>
-            © 2025 Vogue Vista. All rights reserved.
+            © 2025 Vogue Vistas. All rights reserved.
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <Typography variant="body2" sx={{ opacity: 0.8 }}>

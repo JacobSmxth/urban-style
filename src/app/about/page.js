@@ -53,7 +53,7 @@ export default function About() {
               mb: 3
             }}
           >
-            The Vogue Vista Journey
+            The Vogue Vistas Journey
           </Typography>
           <Typography 
             variant="h5" 
@@ -168,10 +168,10 @@ export default function About() {
                   }
                 }}
               >
-                The Vogue Vista Journey
+                The Vogue Vistas Journey
               </Typography>
               <Typography paragraph sx={{ mb: 3 }}>
-                Vogue Vista began with a simple yet powerful idea: to create a fashion destination that celebrates individuality and style. Our journey started in 2024, and since then, we have been dedicated to bring you the finest selection of fashion and accessories.
+                Vogue Vistas began with a simple yet powerful idea: to create a fashion destination that celebrates individuality and style. Our journey started in 2024, and since then, we have been dedicated to bring you the finest selection of fashion and accessories.
               </Typography>
               <Typography paragraph sx={{ mb: 3 }}>
                 What sets us apart is our commitment to quality and customer satisfaction. We carefully curate our collections to ensure that every piece meets our high standards of excellence.

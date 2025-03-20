@@ -26,7 +26,7 @@ const Navbar = () => {
               letterSpacing: '-0.5px'
             }}
           >
-            Vogue Vista
+            Vogue Vistas
           </Typography>
           <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
             <Button

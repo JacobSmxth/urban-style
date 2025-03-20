@@ -1,91 +1,79 @@
-# Portfolio Showcase - Jacob 🎨
+# Vogue Vistas - Portfolio Showcase
 
-> A Professional Portfolio Website Showcasing Creative Work
+A modern, responsive portfolio website built with Next.js 15 and Material-UI, featuring a clean and urban design aesthetic.
 
-A modern portfolio platform built with React and Material UI, designed to showcase projects, skills, and professional experience in an elegant and interactive way.
+## 🚀 Features
 
-## Features
+- **Modern Tech Stack**: Built with Next.js 15 and React 19
+- **Responsive Design**: Fully responsive UI using Material-UI (MUI) components
+- **State Management**: Integrated Redux Toolkit for efficient state management
+- **Performance Optimized**: Utilizes Next.js features like server-side rendering and optimized builds
+- **Custom Theming**: Customized Material-UI theme for consistent styling
+- **Icon Integration**: Rich set of icons from Material-UI and React Icons
 
-- 🏠 **Dynamic Home Page**
-  - Featured products showcase
-  - Seasonal collections
-  - Category navigation
-  
-- 🛍️ **Product Management**
-  - Browse products by category
-  - Advanced filtering & sorting
-  - Detailed product views
-  
-- 🛒 **Shopping Cart**
-  - Add/remove items
-  - Quantity management
-  - Persistent cart storage
-  
-- 💳 **Checkout Process**
-  - User-friendly form
-  - Order summary
-  - Mock payment integration
+## 🛠️ Technologies Used
 
-## Tech Stack
+- Next.js 15.2.3
+- React 19.0.0
+- Material-UI v6
+- Redux Toolkit
+- React Icons
+- ESLint for code quality
+- Netlify for deployment
 
-- **Frontend:** React.js
-- **State Management:** Redux Toolkit
-- **UI Framework:** Material UI
-- **API:** FakeStoreAPI
+## 📦 Project Structure
 
-## Pages Structure
+```
+urban-style/
+├── src/
+│   ├── app/         # Next.js app directory
+│   ├── components/  # Reusable React components
+│   ├── store/       # Redux store configuration
+│   ├── services/    # API services and utilities
+│   └── theme.js     # Material-UI theme configuration
+├── public/          # Static assets
+└── ...config files
+```
 
-### 1. Home Page
-- Hero section with seasonal promotions
-- Featured products grid
-- Category navigation
-- Footer with quick links
+## 🚀 Getting Started
 
-### 2. Product Listing
-- Filterable product grid
-- Sort by price
-- Category filtering
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   cd urban-style
+   ```
 
-### 3. Product Details
-- High-resolution images
-- Product information
-- Add to cart functionality
-- Related products
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### 4. Shopping Cart
-- Cart management
-- Price calculations
-- Checkout flow
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:3000`
 
-### 5. Checkout
-- Billing information
-- Order summary
-- Payment interface
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-## Styling
+## 🔧 Available Scripts
 
-- Minimalist design approach
-- Clean typography using Roboto font
-- Responsive layout
-- Interactive UI elements
-- Optional dark mode
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Create production build
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint for code quality checks
 
-## Getting Started
+## 🌐 Deployment
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start development server: `npm start`
-4. Visit `http://localhost:3000`
+This project is configured for deployment on Netlify using the `@netlify/plugin-nextjs` plugin. The deployment configuration can be found in `netlify.toml`.
 
-## Development Roadmap
+## 📝 License
 
-1. ⚙️ Project setup and configuration
-2. 📦 API integration
-3. 🎨 UI component development
-4. 🛒 Cart functionality
-5. 💳 Checkout process
-6. 🎯 Testing and optimization
+This project is private and proprietary. All rights reserved.
 
-## License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Created and maintained by Jacob

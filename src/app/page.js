@@ -497,13 +497,13 @@ export default function Home() {
                   }
                 }}
               >
-                About Vogue Vista
+                About Vogue Vistas
               </Typography>
               <Typography variant="h6" sx={{ mb: 3, color: 'text.secondary' }}>
                 Redefining Fashion for the Modern Era
               </Typography>
               <Typography paragraph sx={{ mb: 3 }}>
-                At Vogue Vista, we believe that fashion is more than just clothing - it is a form of self-expression that empowers individuals to showcase their unique personality and style.
+                At Vogue Vistas, we believe that fashion is more than just clothing - it is a form of self-expression that empowers individuals to showcase their unique personality and style.
               </Typography>
               <Typography paragraph sx={{ mb: 3 }}>
                 Founded with a passion for quality and design, we curate collections that blend timeless elegance with contemporary trends, ensuring our customers always stay ahead in the fashion game.
@@ -665,7 +665,7 @@ export default function Home() {
                       <Box>
                         <Typography variant="h6" gutterBottom>Email Us</Typography>
                         <Typography variant="body2" color="text.secondary">
-                          support@voguevista.com
+                          support@voguevistas.com
                         </Typography>
                       </Box>
                     </Paper>
@@ -974,7 +974,7 @@ export default function Home() {
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   <EmailIcon sx={{ opacity: 0.7 }} />
                   <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                    support@voguevista.com
+                    support@voguevistas.com
                   </Typography>
                 </Box>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -1043,7 +1043,7 @@ export default function Home() {
             gap: 2
           }}>
             <Typography variant="body2" sx={{ opacity: 0.8 }}>
-              © 2025 Vogue Vista. All rights reserved.
+              © 2025 Vogue Vistas. All rights reserved.
             </Typography>
             <Box sx={{ 
               display: 'flex', 
