@@ -1,8 +1,8 @@
-# UrbanStyle E-commerce Store 🛍️
+# Portfolio Showcase - Jacob 🎨
 
-> Elevate Your Wardrobe with Timeless Fashion
+> A Professional Portfolio Website Showcasing Creative Work
 
-A modern e-commerce platform built with React, Material UI, and Redux Toolkit, offering a seamless shopping experience with a minimalist design aesthetic.
+A modern portfolio platform built with React and Material UI, designed to showcase projects, skills, and professional experience in an elegant and interactive way.
 
 ## Features
 
@@ -85,8 +85,6 @@ A modern e-commerce platform built with React, Material UI, and Redux Toolkit, o
 4. 🛒 Cart functionality
 5. 💳 Checkout process
 6. 🎯 Testing and optimization
-
-
 
 ## License
 

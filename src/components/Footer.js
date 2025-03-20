@@ -122,7 +122,7 @@ export default function Footer() {
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                 <EmailIcon sx={{ opacity: 0.7 }} />
                 <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                  support@urbanstyle.com
+                  support@voguevista.com
                 </Typography>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -191,7 +191,7 @@ export default function Footer() {
           gap: 2
         }}>
           <Typography variant="body2" sx={{ opacity: 0.8 }}>
-            © 2025 Urban Style. All rights reserved.
+            © 2025 Vogue Vista. All rights reserved.
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <Typography variant="body2" sx={{ opacity: 0.8 }}>

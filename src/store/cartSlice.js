@@ -3,11 +3,14 @@ import { createSlice } from '@reduxjs/toolkit';
 // Load initial state from localStorage
 const loadState = () => {
   try {
-    const serializedState = localStorage.getItem('cart');
-    if (serializedState === null) {
-      return { items: [], total: 0 };
+    if (typeof window !== 'undefined') {
+      const serializedState = localStorage.getItem('cart');
+      if (serializedState === null) {
+        return { items: [], total: 0 };
+      }
+      return JSON.parse(serializedState);
     }
-    return JSON.parse(serializedState);
+    return { items: [], total: 0 };
   } catch (err) {
     console.error('Error loading cart state:', err);
     return { items: [], total: 0 };

@@ -134,9 +134,9 @@ export default function Contact() {
                 <Typography variant="h6">Email Us</Typography>
               </Box>
               <Typography color="text.secondary">
-                support@urbanstyle.com
+                support@voguevista.com
                 <br />
-                sales@urbanstyle.com
+                sales@voguevista.com
               </Typography>
             </Paper>
           </Grid>

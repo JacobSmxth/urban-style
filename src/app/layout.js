@@ -5,8 +5,17 @@ import "./globals.css";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "UrbanStyle - Fashion Store",
+  title: "Vogue Vista - Fashion Store",
   description: "Elevate Your Wardrobe with Timeless Fashion",
+  icons: {
+    icon: [
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      }
+    ],
+    shortcut: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }) {
